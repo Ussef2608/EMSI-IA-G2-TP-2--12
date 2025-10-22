@@ -13,7 +13,7 @@ public class Test1 {
         ChatModel modele = GoogleAiGeminiChatModel.builder()
                 .apiKey(cle)
                 .modelName("gemini-2.5-flash")
-                .temperature(0.7) // créativité moyenne
+                .temperature(0.7)
                 .build();
 
         // Envoi d’une question simple
